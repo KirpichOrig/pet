@@ -1,0 +1,55 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style: none;
+  text-decoration: none;
+  border: none;
+  scroll-behavior: smooth;
+  font-family: "Mont", serif;
+}
+@font-face {
+  font-family: "Mont";
+  src: url(./fonts/Montserrat-VariableFont_wght.ttf);
+}
+/* @font-face {
+  font-family: "Mont";
+  font-weight: 800;
+  src: url(./fonts/Montserrat-Bold.ttf);
+}
+@font-face {
+  font-family: "Mont";
+  font-weight: 700;
+  src: url(./fonts/Montserrat-SemiBold.ttf);
+}
+@font-face {
+  font-family: "Mont";
+  font-weight: 600;
+  src: url(./fonts/Montserrat-Medium.ttf);
+}
+@font-face {
+  font-family: "Mont";
+  font-weight: 500;
+  src: url(./fonts/Montserrat-Regular.ttf);
+}
+@font-face {
+  font-family: "Mont";
+  font-weight: 400;
+  src: url(./fonts/Montserrat-Light.ttf);
+} */
+
+/* глобальные стили */
+
+body {
+  overflow-x: hidden;
+  background: #000;
+}
+.section {
+  max-width: 1640px;
+  padding: 0 20px;
+  margin: 0 auto;
+} 

@@ -1,0 +1,29 @@
+header {
+    height: 65px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.logo {
+    display: flex;
+    /* width: 100%;
+    justify-content: start; */
+}
+.logo-img {
+    height: 50px;
+}
+a, p {
+    color: white;
+    font-size: 20px;
+    font-weight: 600;
+}
+.header-nav {
+    display: flex;
+    gap: 16px;
+    /* width: 100%;
+    justify-content: end; */
+    color: white;
+}
+.header-nav-authorization {
+    display: flex;
+}

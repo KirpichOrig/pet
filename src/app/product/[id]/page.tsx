@@ -5,12 +5,6 @@ import { useRouter } from 'next/navigation';
 import { useParams } from 'next/navigation';
 import animalData from '@/components/animalData'; // Путь к файлу с данными
 
-interface Params {
-  params: {
-    id: string;
-  };
-}
-
 const ProductDetails: React.FC = () => {
   const { id } = useParams();  // Получаем ID из параметров URL
   const router = useRouter();  // Хук для навигации
@@ -133,4 +127,3 @@ const ProductDetails: React.FC = () => {
 };
 
 export default ProductDetails;
-
